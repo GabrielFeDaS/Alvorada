@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="monteSeuCarro.css">
+    <title>Alvorada</title>
+</head>
+<body>
+    <main>
+        <form action="analise.html">
+            <h1>Faça sua encomenda</h1>
+
+			<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome e sobrenome">
+			<input type="email" id="email" class="input-padrao" required placeholder="seuemail@gmail.com">
+			<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+            <input type="number" id="cep" class="input-padrao" required placeholder="CEP">
+
+			<label for="mensagem">Específicações do veículo</label>
+			<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber atualizações do pedido no email?</input></label>
+
+			<input type="submit" value="Fazer Pedido" class="enviar">
+		</form>
+
+        <a href="index.html" class="back">Voltar ↩</a>
+    </main>
+</body>
+</html>

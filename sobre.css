@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+main{
+    background-color: rgb(102, 15, 15);
+    width: 1100px;
+    height: 850px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, .loc{
+    text-align: center;
+}
+
+textarea{
+    width: 80%;
+    margin: 0 9%;
+    border-radius: 20px;
+}
+
+button{
+    margin: 0 520px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+p{
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.analise{
+    text-align: center;
+    margin: 200px auto;
+}
+
+.back{
+    background-color: white;
+    padding: 5px;
+    margin: 0 100px;
+    font-size: 1.5em;
+    color: blue;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 560px ) {
+    main{
+        width: 95%;
+        height: 5%;
+        margin: 0 auto;
+        padding: 0.5%;
+    }
+    
+    button{
+        margin: 0 45%;
+        padding: 3%;
+    }
+    
+    p{
+        font-size: 1.2em;
+        margin: 5%;
+    }
+    
+    .back{
+        padding: 5px;
+        margin: 0 5%;
+        font-size: 1.5em;
+    }
+}

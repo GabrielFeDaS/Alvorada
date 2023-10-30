@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1,0">
+        <link rel="stylesheet" type="text/css" href="cadastro.css">
+        <title>Alvorada</title>
+    </head>
+    <body>
+        <main>
+            <form action="analise.html">
+                <h1>Cadastre-se</h1>
+        
+                <p>Dados do Cliente:</p>
+
+                <input type="text" name="nome" placeholder="Nome completo" required>
+                <input type="numero" name="cpf" placeholder="CPF" required>
+                <input type="numero" name="cep" placeholder="CEP" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="numero" name="numero" placeholder="Número de telefone" required>
+
+                <p>Adicionar Cartão:</p>
+
+                <input type="text" name="nome" placeholder="Nome do Titular" required>
+                <input type="numero" name="cpf" placeholder="CPF do Titular" required>
+                <input type="numero" name="cvv" placeholder="CVV" required>
+                <input type="text" name="datavenc" placeholder="Data de vencimento" required>
+                <input type="text" name="senha" placeholder="Senha do cartão" required>
+        
+                <button type="submit" name="add">Cadastrar</button>
+
+                <p><a href="Index.html" class="back">Voltar ↩</a></p>
+            </form>
+        </main>
+    </body>
+</html>

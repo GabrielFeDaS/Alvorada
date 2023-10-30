@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+main{
+    background-color: rgb(63, 17, 17);
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 30px;
+    width: 900px;
+    height: 800px;
+    font-size: 2em;
+}
+
+input{
+    width: 70%;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px auto;
+    display: block;
+    background-color: rgb(182, 170, 170);
+}
+
+.submit{
+    text-decoration: none;
+    color: black;
+}
+
+.back {
+    color: blueviolet;
+}
+
+@media screen and (max-width: 560px ) {
+   
+    main{
+        padding: 0;
+        margin: 3%;
+        width: 96%;
+        height: 850px;
+        font-size: 1em;
+    }
+
+    form{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    input{
+        width: 80%;
+        padding: 2%;
+        margin: 2%;
+    }
+    
+    button{
+        padding: 5px;
+        margin: 2% auto;
+    }
+}
